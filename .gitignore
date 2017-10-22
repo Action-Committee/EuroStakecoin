@@ -1,0 +1,26 @@
+src/*.exe
+src/eurostake
+src/eurostaked
+src/test_eurostake
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.eurostake
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+eurostake-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
